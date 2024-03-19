@@ -7,7 +7,9 @@ import {
   PlusCircle,
   Search,
   Settings,
-  Trash
+
+  Trash,
+  
 } from "lucide-react";
 import { useParams, usePathname, useRouter } from "next/navigation";
 import { ElementRef, useEffect, useRef, useState } from "react";
@@ -160,6 +162,11 @@ export const Navigation = () => {
             isSearch
             onClick={search.onOpen}
           />
+           {/* <Item
+            label="EventPlanner"
+            // icon={}
+            onClick={settings.onOpen}
+          /> */}
           <Item
             label="Settings"
             icon={Settings}

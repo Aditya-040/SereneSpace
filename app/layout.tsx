@@ -12,7 +12,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Jotion',
+  title: 'SereneSpace',
   description: 'The connected workspace where better, faster work happens.',
   icons: {
     icon: [
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
       },
       {
         media: "(prefers-color-scheme: dark)",
-        url: "/logo-dark.svg",
-        href: "/logo-dark.svg",
+        url: "/logo.png",
+        href: "/logo.png",
       }
     ]
   }

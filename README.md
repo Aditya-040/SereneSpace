@@ -1,5 +1,5 @@
 
-###SereneSpace NoteTaking and AI Event Planner
+#  SereneSpace NoteTaking and AI Event Planner 
 
 Key Features:
 
